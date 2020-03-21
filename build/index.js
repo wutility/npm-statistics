@@ -1,0 +1,1 @@
+"use strict";var t,e=(t=require("axios"))&&"object"==typeof t&&"default"in t?t.default:t;module.exports=function(t,o,u){let a=`https://npm-stat.com/api/download-counts?author=${t}&from=${o}&until=${u}`;return e.get(a).then(t=>(t=t.data,Object.keys(t).map(e=>({o:e,sum:Object.values(t[e]).reduce((t,e)=>t+e,0)}))))};

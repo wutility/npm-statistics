@@ -1,0 +1,1 @@
+import t from"axios";export default function(e,o,a){let u=`https://npm-stat.com/api/download-counts?author=${e}&from=${o}&until=${a}`;return t.get(u).then(t=>(t=t.data,Object.keys(t).map(e=>({o:e,sum:Object.values(t[e]).reduce((t,e)=>t+e,0)}))))}

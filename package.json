@@ -1,0 +1,35 @@
+{
+  "name": "npm-statistics",
+  "version": "1.0.0",
+  "description": "Find you npm download statistics",
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "author": "Haikel Fazzani",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf -rf index.js",
+    "build": "npm run clean && rollup -c",
+    "test": "npm run build && node tests/index.js"
+  },
+  "keywords": [
+    "npm",
+    "download",
+    "stats",
+    "npm-stats",
+    "statistics"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.1.0",
+    "rollup-plugin-terser": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haikelfazzani/resize-an-img.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haikelfazzani/resize-an-img.git/issues"
+  },
+  "homepage": "https://github.com/haikelfazzani/resize-an-img.git#readme"
+}
