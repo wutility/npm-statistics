@@ -1,6 +1,8 @@
 # 💨 Npm statistics  
 Find your npm packages download statistics.
 
+![](https://badgen.net/npm/v/npm-statistics) ![](https://badgen.net/bundlephobia/min/npm-statistics)
+
 ## Installation
 ```js
 $ npm i npm-statistics
@@ -16,7 +18,7 @@ import { getAll, getOne } from 'npm-statistics';
 
 Or include it via jsDelivr CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/npm-statistics@1.0.0/build/index.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/npm-statistics@1.0.0/build/index.umd.js"></script>
 // access via object : NpmStats 
 NpmStats.getAll(options)
 ```
