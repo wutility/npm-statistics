@@ -1,11 +1,11 @@
 # 💨 Npm statistics  
 Find your npm packages download statistics.
 
-### Installation
-```
-> npm i npm-statistics
+## Installation
+```js
+$ npm i npm-statistics
 // or
-> yarn add npm-statistics
+$ yarn add npm-statistics
 ```
 ## Usage
 ```js
