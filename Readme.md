@@ -18,9 +18,8 @@ import { getAll, getOne } from 'npm-statistics';
 
 Or include it via jsDelivr CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/npm-statistics@1.0.0/build/index.umd.js"></script>
-// access via object : NpmStats 
-NpmStats.getAll(options)
+<script src="https://cdn.jsdelivr.net/npm/npm-statistics@1.0.3/build/index.umd.js"></script>
+<!-- access via object : NpmStats -> NpmStats.getAll(options) -->
 ```
 
 ## Methods and examples
@@ -37,7 +36,7 @@ getAll(options)
   .then(results => {  console.log(results); })
   .catch(e => { console.log(e); });
 ```
-- **Response**
+- ***Response***
 ```json
 {
   "packages": [
@@ -55,7 +54,7 @@ getOne('ganco', '2020-02-05', '2020-03-21') // package name required
 .catch(e=>{ console.log(e); })
 ```
 
-- **Response**
+- ***Response***
 ```json
 { "package": "ganco", "downloads": 150 }
 ```

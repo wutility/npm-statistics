@@ -1,6 +1,6 @@
 {
   "name": "npm-statistics",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Find your npm packages download statistics",
   "main": "build/index.js",
   "module": "build/index.esm.js",
