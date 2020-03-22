@@ -38,11 +38,11 @@ getAll(options)
 - **Response**
 ```json
 {
-  packages: [
-    { name: 'makeuid', downloads: 274 },
-    { name: 'node-file-env', downloads: 481 },
+  "packages": [
+    { "name": "makeuid", "downloads": 274 },
+    { "name": "node-file-env", "downloads": 481 },
   ..],
-  total: 9695
+  "total": 9695
 }
 ```
 
@@ -55,7 +55,7 @@ getOne('ganco', '2020-02-05', '2020-03-21') // package name required
 
 - **Response**
 ```json
-{ package: 'ganco', downloads: 150 }
+{ "package": "ganco", "downloads": 150 }
 ```
 
 ## Notes
