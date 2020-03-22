@@ -1,6 +1,6 @@
 {
   "name": "npm-statistics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find your npm packages download statistics",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haikelfazzani/resize-an-img.git"
+    "url": "git+https://github.com/haikelfazzani/npm-statistics.git"
   },
   "bugs": {
-    "url": "https://github.com/haikelfazzani/resize-an-img.git/issues"
+    "url": "https://github.com/haikelfazzani/npm-statistics.git/issues"
   },
-  "homepage": "https://github.com/haikelfazzani/resize-an-img.git#readme"
+  "homepage": "https://github.com/haikelfazzani/npm-statistics.git#readme"
 }
