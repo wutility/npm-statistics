@@ -18,7 +18,7 @@ import { getAll, getOne } from 'npm-statistics';
 
 Or include it via jsDelivr CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/npm-statistics@1.0.3/build/index.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/npm-statistics@1.0.4/build/index.umd.js"></script>
 <!-- access via object : NpmStats -> NpmStats.getAll(options) -->
 ```
 

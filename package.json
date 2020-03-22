@@ -1,6 +1,6 @@
 {
   "name": "npm-statistics",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Find your npm packages download statistics",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haikelfazzani/npm-statistics.git"
+    "url": "git+https://github.com/wutility/npm-statistics.git"
   },
   "bugs": {
-    "url": "https://github.com/haikelfazzani/npm-statistics.git/issues"
+    "url": "https://github.com/wutility/npm-statistics.git/issues"
   },
-  "homepage": "https://github.com/haikelfazzani/npm-statistics.git#readme"
+  "homepage": "https://github.com/wutility/npm-statistics.git#readme"
 }
