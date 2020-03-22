@@ -4,6 +4,11 @@ export default {
   input: 'src/main.js',
   output: [
     {
+      name: 'NpmStats',
+      file: 'build/index.umd.js',
+      format: 'umd'
+    },
+    {
       file: 'build/index.js',
       format: 'cjs'
     },

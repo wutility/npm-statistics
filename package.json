@@ -1,7 +1,7 @@
 {
   "name": "npm-statistics",
   "version": "1.0.0",
-  "description": "Find you npm download statistics",
+  "description": "Find your npm packages download statistics",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "author": "Haikel Fazzani",
