@@ -19,7 +19,7 @@
     "statistics"
   ],
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
